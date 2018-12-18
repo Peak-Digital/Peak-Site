@@ -1,22 +1,13 @@
-@font-face {
-  font-family: 'Baron Neue';
-  src: url(../fonts/baron_neue-webfont.woff);
-  font-weight: normal;
-}
-
 html, body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
   background-color: #ecf0f1;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-size: 1.5rem;
-
 }
 
 h1 {
@@ -34,8 +25,8 @@ h1 {
   display: -webkit-flex;
   display: flex;
   flex: auto;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 .flex-container.row {
   flex-direction: row;
